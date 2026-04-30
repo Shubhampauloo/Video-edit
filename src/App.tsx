@@ -42,7 +42,7 @@ const Navbar = () => {
               <Video className="text-white w-6 h-6" />
             </div>
             <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-violet-500">
-              VideoPro
+              Shubham Edits
             </span>
           </div>
           
@@ -149,7 +149,7 @@ const Hero = () => (
           transition={{ delay: 0.1 }}
           className="text-5xl md:text-7xl font-extrabold text-white mb-6 leading-[1.1]"
         >
-          Turn Your Raw Footage Into <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-violet-400 to-fuchsia-400">Viral Masterpieces</span>
+          High-Octane <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-violet-400 to-fuchsia-400">Automotive Edits</span> for BMW & Beyond
         </motion.h1>
         
         <motion.p 
@@ -158,7 +158,7 @@ const Hero = () => (
           transition={{ delay: 0.2 }}
           className="text-lg md:text-xl text-slate-400 mb-10 max-w-2xl mx-auto leading-relaxed"
         >
-          I provide professional video editing for YouTubers, Content Creators, and Businesses. From cinematic ads to engaging TikToks, I handle it all.
+          Professional car video editing that captures the thrill of the drive. Cinematic rollers, exhaust notes, and high-energy drift edits.
         </motion.p>
         
         <motion.div 
@@ -201,12 +201,12 @@ const Hero = () => (
 
 const Services = () => {
   const services = [
-    { title: 'Shorts & Reels', desc: 'Fast-paced, high retention editing for Instagram and TikTok.', icon: Smartphone, color: 'text-pink-400' },
-    { title: 'YouTube Content', desc: 'Storytelling-focused edits with transitions and custom B-roll.', icon: Youtube, color: 'text-red-500' },
-    { title: 'Motion Graphics', desc: 'Dynamic text overlays, logos, and animated elements.', icon: Layers, color: 'text-blue-400' },
-    { title: 'Color Grading', desc: 'Give your footage a cinematic look with professional LUTs.', icon: Palette, color: 'text-violet-400' },
-    { title: 'Subtitles & Captions', desc: 'Modern, readable captions that keep viewers locked in.', icon: Type, color: 'text-amber-400' },
-    { title: 'Corporate Ads', desc: 'Clean and professional edits for brands and local businesses.', icon: Globe, color: 'text-emerald-400' },
+    { title: 'Cinematic Rollers', desc: 'Smooth, color-graded rolling shots that highlight every curve of your car.', icon: Video, color: 'text-blue-400' },
+    { title: 'Exhaust Sound Design', desc: 'Capturing the raw power of the engine with crisp, layered audio.', icon: Zap, color: 'text-amber-400' },
+    { title: 'High-Energy Reels', desc: 'Fast-paced edits designed for Instagram and TikTok car culture.', icon: Smartphone, color: 'text-pink-400' },
+    { title: 'Color Transformation', desc: 'Professional grading to make paint pops and street lights glow.', icon: Palette, color: 'text-violet-400' },
+    { title: 'Drift & Track Coverage', desc: 'Action-packed montages from the track or drift events.', icon: Youtube, color: 'text-red-500' },
+    { title: 'Brand Storytelling', desc: 'Clean edits for custom shops, dealerships, and car gear.', icon: Globe, color: 'text-emerald-400' },
   ];
 
   return (
@@ -296,12 +296,12 @@ const WhyChooseMe = () => {
 
 const Portfolio = () => {
   const works = [
-    { title: 'Tech Review Edit', cat: 'YouTube', img: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=2072&auto=format&fit=crop' },
-    { title: 'Luxury Travel Reel', cat: 'Short-form', img: 'https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=2070&auto=format&fit=crop' },
-    { title: 'Product Launch Ad', cat: 'Corporate', img: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=1999&auto=format&fit=crop' },
-    { title: 'Gaming Montage', cat: 'Gaming', img: 'https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=2070&auto=format&fit=crop' },
-    { title: 'Lifestyle Vlog', cat: 'YouTube', img: 'https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?q=80&w=2070&auto=format&fit=crop' },
-    { title: 'Corporate Interview', cat: 'Brand', img: 'https://images.unsplash.com/photo-1512758017271-d7b84c2113f1?q=80&w=2070&auto=format&fit=crop' },
+    { title: 'BMW M4 Competition Glide', cat: 'Cinematic', img: 'https://images.unsplash.com/photo-1555215695-3004980ad54e?q=80&w=2070&auto=format&fit=crop' },
+    { title: 'Night Street Drifting', cat: 'Short-form', img: 'https://images.unsplash.com/photo-1580273916550-e323be2ae537?q=80&w=2070&auto=format&fit=crop' },
+    { title: 'Supercar Sound Design', cat: 'Audio Focus', img: 'https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?q=80&w=2070&auto=format&fit=crop' },
+    { title: 'Highway Roller Montage', cat: 'Aesthetic', img: 'https://images.unsplash.com/photo-1544636331-e26879cd4d9b?q=80&w=2070&auto=format&fit=crop' },
+    { title: 'Track Day Highlights', cat: 'Action', img: 'https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?q=80&w=2070&auto=format&fit=crop' },
+    { title: 'Exclusive Car Reveal', cat: 'Event', img: 'https://images.unsplash.com/photo-1594051808233-e30ff5bf364c?q=80&w=2070&auto=format&fit=crop' },
   ];
 
   return (
@@ -610,10 +610,10 @@ const Footer = () => (
             <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center">
               <Video className="text-white w-6 h-6" />
             </div>
-            <span className="text-2xl font-bold text-white">VideoPro</span>
+            <span className="text-2xl font-bold text-white">Shubham Edits</span>
           </div>
           <p className="text-slate-400 max-w-sm leading-relaxed mb-6">
-            Providing high-quality video editing services worldwide. Helping creators and brands grow through professional visual storytelling.
+            Premier automotive video editing. Bringing the energy of the track and the aesthetic of the street to your screens.
           </p>
           <div className="flex gap-4">
             {[Instagram, Youtube, Globe, MessageSquare].map((Icon, i) => (
@@ -649,7 +649,7 @@ const Footer = () => (
       
       <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-center sm:text-left">
         <p className="text-slate-500 text-sm">
-          &copy; {new Date().getFullYear()} <span className="text-slate-300 font-medium">VideoPro</span>. All rights reserved.
+          &copy; {new Date().getFullYear()} <span className="text-slate-300 font-medium">Shubham Edits</span>. All rights reserved.
         </p>
         <p className="text-slate-500 text-sm font-bold tracking-widest uppercase">
           Crafted for Creators
